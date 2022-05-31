@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/convert.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="card">
+        <header class="head">
+            <h1>Metric and Imperial Unit Conversion</h1>
+            <!-- <h3 id="display">20</h3> -->
+            <input id="acceptInput" type="number" step="0.01" placeholder="Enter number..">
+            <button id="myBtn" onclick="message()">Enter</button> 
+        </header>
+
+        <div class="text-box">
+            <div id="unitResults"></div>
+            <div id="unitResults1"></div>
+            <div id="unitResults2"></div>
+
+            <div id="unitDefault">
+                <h3>Mass</h3>
+                <p>kilos = 0.00 pounds</p>
+                <h3>Volume</h3>
+                <p>liters = 0.00 gallons</p>
+                <h3>Length</h3>
+                <p>meters - 0.00 feet</p>
+            </div>
+    </div>
+    <script src="/convert.js"></script>
+</body>
+</html>
